@@ -1,5 +1,8 @@
 class Sphere:
     dimension = 0
+    name = "Sphere"
+    maxVal = 5
+    minVal = -5
 
     def __init__(self, dimension):
         self.dimension = dimension

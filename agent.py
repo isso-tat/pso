@@ -4,9 +4,9 @@ import random
 class Agent:
     past_best_p = []
     past_best_h = None
-    selfC = 1
-    allC = 1
-    velocityC = 1
+    selfC = 0.05
+    allC = 0.05
+    velocityC = 0.1
     velocity = []
     position = []
     max_val = 0
