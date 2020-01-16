@@ -7,9 +7,9 @@ class Sphere:
     def __init__(self, dimension):
         self.dimension = dimension
 
-    def hulistic(self, agent):
+    def hulistic(self, position):
         h = 0
         for i in range(self.dimension):
-            h += agent.position[i]*agent.position[i]
+            h += position[i]*position[i]
         return h
 
