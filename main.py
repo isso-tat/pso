@@ -7,8 +7,8 @@ import random
 import time
 
 dimension = 2
-agentsCount = 5
-maxIndex = 1000
+agentsCount = 20
+maxIndex = 5000
 
 
 def plot_figure(x, y):
@@ -66,7 +66,7 @@ def do_pso():
 
 
 # comment out if you skip pso
-# do_pso()
+do_pso()
 
 
 # ABC

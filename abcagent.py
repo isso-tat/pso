@@ -35,6 +35,7 @@ class AbcAgent:
             self.position.append(random.uniform(min_val, max_val))
 
     def calcCandidate(self, compare):
+        self.candidate = []
         for i in range(self.dimension):
             p = self.position[i] + randomFloat() * (self.position[i] - compare[i])
             self.candidate.append(p)
