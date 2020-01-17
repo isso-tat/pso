@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import random
 import time
 
-dimension = 3
+dimension = 10
 agentsCount = 20
 maxIndex = 5000
 
@@ -137,4 +137,4 @@ def do_abc():
 
 
 # comment out if you skip this
-# do_abc()
+do_abc()
