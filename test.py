@@ -6,7 +6,7 @@ functionClient = FunctionInstaller.function_install(dimension)
 
 
 # test
-val = 1
+val = 2.747
 test = []
 for i in range(dimension):
     test.append(val)

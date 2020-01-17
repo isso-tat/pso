@@ -14,7 +14,8 @@ maxIndex = 5000
 def plot_figure(x, y):
     plt.plot(x, y)
     ax = plt.gca()
-    ax.set_yscale('log')
+    # comment out if the value is possible to be negative
+    # ax.set_yscale('log')
     plt.title('results ' + functionClient.name)
     plt.xlabel('Steps', fontsize=18)
     plt.ylabel('Hulistics', fontsize=18)
