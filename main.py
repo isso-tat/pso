@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 import random
 import time
 
-dimension = 2
-agentsCount = 20
+dimension = 10
+agentsCount = 100
 maxIndex = 5000
 
 
@@ -66,7 +66,7 @@ def do_pso():
 
 
 # comment out if you skip pso
-do_pso()
+# do_pso()
 
 
 # ABC

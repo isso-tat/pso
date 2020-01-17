@@ -6,7 +6,7 @@ class PsoAgent:
     past_best_h = None
     selfC = 1
     allC = 1
-    velocityC = 0.05
+    velocityC = 0.5
     velocity = []
     position = []
     max_val = 0
