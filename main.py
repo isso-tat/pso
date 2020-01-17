@@ -1,6 +1,6 @@
-from psoagent import PsoAgent
-from abcagent import AbcAgent
-from agent_repository import AgentRepository
+from agents.psoagent import PsoAgent
+from agents.abcagent import AbcAgent
+from agents.agent_repository import AgentRepository
 from functions.installer import FunctionInstaller
 import matplotlib.pyplot as plt
 import random
